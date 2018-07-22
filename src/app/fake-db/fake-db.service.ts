@@ -25,17 +25,17 @@ export class FakeDbService implements InMemoryDbService
     {
         return {
             // Dashboards
-            // 'project-dashboard-projects' : ProjectDashboardDb.projects,
-            // 'project-dashboard-widgets'  : ProjectDashboardDb.widgets,
-            // 'analytics-dashboard-widgets': AnalyticsDashboardDb.widgets,
+            'project-dashboard-projects' : ProjectDashboardDb.projects,
+            'project-dashboard-widgets'  : ProjectDashboardDb.widgets,
+            'analytics-dashboard-widgets': AnalyticsDashboardDb.widgets,
 
             // Calendar
-            // 'calendar': CalendarFakeDb.data,
+            'calendar': CalendarFakeDb.data,
 
             // E-Commerce
-            // 'e-commerce-dashboard': ECommerceFakeDb.dashboard,
-            // 'e-commerce-products' : ECommerceFakeDb.products,
-            // 'e-commerce-orders'   : ECommerceFakeDb.orders,
+            'e-commerce-dashboard': ECommerceFakeDb.dashboard,
+            'e-commerce-products' : ECommerceFakeDb.products,
+            'e-commerce-orders'   : ECommerceFakeDb.orders,
 
             // Academy
             'academy-categories': AcademyFakeDb.categories,
@@ -43,18 +43,18 @@ export class FakeDbService implements InMemoryDbService
             'academy-course'    : AcademyFakeDb.course,
 
             // Mail
-            // 'mail-mails'  : MailFakeDb.mails,
-            // 'mail-folders': MailFakeDb.folders,
-            // 'mail-filters': MailFakeDb.filters,
-            // 'mail-labels' : MailFakeDb.labels,
+            'mail-mails'  : MailFakeDb.mails,
+            'mail-folders': MailFakeDb.folders,
+            'mail-filters': MailFakeDb.filters,
+            'mail-labels' : MailFakeDb.labels,
 
             // Chat
-            // 'chat-contacts': ChatFakeDb.contacts,
-            // 'chat-chats'   : ChatFakeDb.chats,
-            // 'chat-user'    : ChatFakeDb.user,
+            'chat-contacts': ChatFakeDb.contacts,
+            'chat-chats'   : ChatFakeDb.chats,
+            'chat-user'    : ChatFakeDb.user,
 
             // File Manager
-            // 'file-manager': FileManagerFakeDb.files,
+            'file-manager': FileManagerFakeDb.files,
 
             // Contacts
             'contacts-contacts': ContactsFakeDb.contacts,
